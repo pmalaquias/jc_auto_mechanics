@@ -1,16 +1,22 @@
 package com.pmalaquias.jcautomechanics.main
 
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.lifecycle.viewmodel.compose.viewModel
+import com.pmalaquias.jcautomechanics.presentation.viewModel.LoginViewModel
+import com.pmalaquias.jcautomechanics.ui.pages.login.LoginPage
 import com.pmalaquias.jcautomechanics.ui.theme.JCAutoMechanicsTheme
 
 @Composable
-fun App(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
+fun App(
+    modifier: Modifier = Modifier
+) {
+
+    val loginViewModel: LoginViewModel = viewModel()
+
+    LoginPage(
+        viewModel = loginViewModel
     )
 }
 
@@ -18,6 +24,6 @@ fun App(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun AppPreview() {
     JCAutoMechanicsTheme {
-        App("Android")
+        App()
     }
 }
