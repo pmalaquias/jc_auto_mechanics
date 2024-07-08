@@ -19,7 +19,6 @@ class MainActivity : ComponentActivity() {
             JCAutoMechanicsTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     App(
-                        name = "Android",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
