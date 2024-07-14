@@ -16,4 +16,9 @@
     <string name="label_schedules">Schedules</string>
     <string name="label_calls">Calls</string>
     <string name="label_home">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_schedule">Schedule</string>
+    <string name="title_invoices">Invoices</string>
+    <string name="title_calls">Calls</string>
+    <string name="title_profile">Profile</string>
 </resources>
