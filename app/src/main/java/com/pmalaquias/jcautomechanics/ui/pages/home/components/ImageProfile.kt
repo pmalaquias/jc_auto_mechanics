@@ -38,3 +38,25 @@ fun ImageProfile() {
             .border(1.dp, MaterialTheme.colorScheme.onPrimary, CircleShape)
     )
 }
+
+/**
+ * A composable function that displays a user's profile photo.
+ * This function utilizes the [ImageProfile] composable to create a hexagon-shaped profile image.
+ *
+ * @param photoUrl The URL of the user's profile photo. Defaults to an empty string.
+ */
+@Composable
+fun UserProfilePhoto(photoUrl: String = "") {
+    ImageProfile()
+}
+
+/**
+ * A composable function that displays a workshop's profile photo.
+ * This function utilizes the [ImageProfile] composable to create a hexagon-shaped profile image.
+ *
+ * @param photoUrl The URL of the workshop's profile photo. Defaults to an empty string.
+ */
+@Composable
+fun WorkshopProfilePhoto(photoUrl: String = "") {
+    ImageProfile()
+}
