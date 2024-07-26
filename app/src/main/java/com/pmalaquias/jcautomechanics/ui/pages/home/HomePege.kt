@@ -57,7 +57,6 @@ data class TabBarItem(
 fun HomePage(
     modifier: Modifier = Modifier
 ) {
-
     val navController = rememberNavController()
 
     // setting up the individual tabs
