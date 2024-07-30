@@ -1,5 +1,7 @@
 package com.pmalaquias.jcautomechanics.domain.entities
 
+import java.util.Date
+
 /**
  * Represents a service provided by the auto mechanics system.
  *
@@ -15,7 +17,7 @@ data class Service(
     val id: Int,
     val carId: Int,
     val mechanicId: Int,
-    val date: String,
+    val date: Date,
     val description: String,
     val price: Double,
     val status: String
