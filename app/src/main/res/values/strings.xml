@@ -50,4 +50,11 @@
     <string name="field_number">Number</string>
     <string name="field_street">Street</string>
     <string name="field_opening_hours">Opening Hours</string>
+    <string name="field_full_name">Full Name</string>
+    <string name="field_password">Password</string>
+    <string name="button_edit_profile">Edit Profile</string>
+    <string name="title_business_info">Business Info</string>
+    <string name="title_address_info">Address Info</string>
+    <string name="title_social_media">Social Media</string>
+    <string name="button_save">Save</string>
 </resources>
