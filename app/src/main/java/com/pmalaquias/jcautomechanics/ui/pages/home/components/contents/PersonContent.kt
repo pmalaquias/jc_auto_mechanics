@@ -1,4 +1,4 @@
-package com.pmalaquias.jcautomechanics.ui.pages.home.components
+package com.pmalaquias.jcautomechanics.ui.pages.home.components.contents
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -17,6 +17,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.pmalaquias.jcautomechanics.R
+import com.pmalaquias.jcautomechanics.ui.pages.home.components.Buttons.ButtonEditProfile
+import com.pmalaquias.jcautomechanics.ui.pages.home.components.SectionTitle
+import com.pmalaquias.jcautomechanics.ui.pages.home.components.Fields.UserInfoField
+import com.pmalaquias.jcautomechanics.ui.pages.home.components.UserProfilePhoto
 import com.pmalaquias.jcautomechanics.ui.theme.JCAutoMechanicsTheme
 
 /**

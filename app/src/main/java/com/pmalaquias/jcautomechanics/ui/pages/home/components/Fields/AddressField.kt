@@ -1,4 +1,4 @@
-package com.pmalaquias.jcautomechanics.ui.pages.home.components
+package com.pmalaquias.jcautomechanics.ui.pages.home.components.Fields
 
 import androidx.annotation.StringRes
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -8,6 +8,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
+import com.pmalaquias.jcautomechanics.R
 import com.pmalaquias.jcautomechanics.ui.theme.JCAutoMechanicsTheme
 
 /**
@@ -40,7 +41,7 @@ fun AddressField(
 fun AddressFieldPreview() {
     JCAutoMechanicsTheme {
         AddressField(
-            label = com.pmalaquias.jcautomechanics.R.string.field_street,
+            label = R.string.field_street,
             value = "Rua Exemplo"
         )
     }

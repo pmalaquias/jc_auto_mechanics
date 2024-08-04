@@ -1,4 +1,4 @@
-package com.pmalaquias.jcautomechanics.ui.pages.home.components
+package com.pmalaquias.jcautomechanics.ui.pages.home.components.Buttons
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding

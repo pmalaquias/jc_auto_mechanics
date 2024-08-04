@@ -1,4 +1,4 @@
-package com.pmalaquias.jcautomechanics.ui.pages.home.components
+package com.pmalaquias.jcautomechanics.ui.pages.home.components.Buttons
 
 import androidx.annotation.StringRes
 import androidx.compose.foundation.gestures.Orientation

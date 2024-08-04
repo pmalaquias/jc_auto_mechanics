@@ -1,4 +1,4 @@
-package com.pmalaquias.jcautomechanics.ui.pages.home.components
+package com.pmalaquias.jcautomechanics.ui.pages.home.components.contents
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -16,10 +16,15 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.pmalaquias.jcautomechanics.R
+import com.pmalaquias.jcautomechanics.ui.pages.home.components.Fields.AddressField
+import com.pmalaquias.jcautomechanics.ui.pages.home.components.MultiLineField
+import com.pmalaquias.jcautomechanics.ui.pages.home.components.SectionTitle
+import com.pmalaquias.jcautomechanics.ui.pages.home.components.SocialMediaLinksSection
+import com.pmalaquias.jcautomechanics.ui.pages.home.components.Fields.WorkshopInfoField
+import com.pmalaquias.jcautomechanics.ui.pages.home.components.WorkshopProfilePhoto
 import com.pmalaquias.jcautomechanics.ui.theme.JCAutoMechanicsTheme
 
 /**

@@ -1,4 +1,4 @@
-package com.pmalaquias.jcautomechanics.ui.pages.home.components
+package com.pmalaquias.jcautomechanics.ui.pages.home.components.Fields
 
 import androidx.annotation.StringRes
 import androidx.compose.foundation.layout.fillMaxWidth

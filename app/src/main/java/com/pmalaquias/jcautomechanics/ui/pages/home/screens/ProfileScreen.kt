@@ -28,8 +28,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import com.pmalaquias.jcautomechanics.R
-import com.pmalaquias.jcautomechanics.ui.pages.home.components.PersonContent
-import com.pmalaquias.jcautomechanics.ui.pages.home.components.WorkshopContent
+import com.pmalaquias.jcautomechanics.ui.pages.home.components.contents.PersonContent
+import com.pmalaquias.jcautomechanics.ui.pages.home.components.contents.WorkshopContent
 import com.pmalaquias.jcautomechanics.ui.theme.JCAutoMechanicsTheme
 import kotlinx.coroutines.launch
 
